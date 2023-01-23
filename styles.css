@@ -1,2 +1,17 @@
 
 /* Your CSS Code here. */
+.grid-container{
+	display: grid;
+	border: 2px solid tomato;
+	grid-template-columns: repeat(2,200px);
+	grid-template-rows:repeat(2,200px);
+	padding:20px;
+	gap:10px;
+}
+.grid-item{
+	
+	border:2px solid green;
+	background-color: tomato;
+	padding:10px;
+	
+}
