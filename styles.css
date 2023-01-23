@@ -2,10 +2,12 @@
 /* Your CSS Code here. */
 .grid-container{
 	display: grid;
+	width:200px;
+	height:200px;
 	border: 2px solid tomato;
-	grid-template-columns: repeat(2,200px);
-	grid-template-rows:repeat(2,200px);
-	padding:20px;
+	grid-template-columns: repeat(2,1fr);
+	grid-template-rows:repeat(2,1fr);
+	padding:10px;
 	gap:10px;
 }
 .grid-item{
